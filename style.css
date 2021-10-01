@@ -25,7 +25,7 @@ body {
     color: var(--secondary-font-color); 
 }
 h1 {
-    font-size: 1.7rem; 
+    font-size: 2.4rem; 
     font-weight: 200;
     color: var(--main-font-color-dark); 
     text-align: center;
@@ -33,14 +33,22 @@ h1 {
 }
 h2 {
     color: var(--main-font-color-dark); 
+    font-size: 1.4rem;
+}
+p{
+    font-weight: 400;
 }
 
 /* HEADER */
 header{
-    max-width: 500px;
+    max-width: 503px;
     text-align: center;
     margin: auto;
     margin-bottom: 78px;
+}
+section p{
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 
 /* MAIN */
@@ -56,7 +64,7 @@ article{
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    padding: 30px;
+    padding: 33px;
     margin-bottom: 25px;
     border-radius: 5px;
     border-top: 4px solid ;
@@ -84,6 +92,33 @@ img{
     margin-top: 33px;
 }
 
+/* SECTION */
+@media screen and (min-width: 1190px){
+    section{
+        display: flex;
+        width: 1127.5px;
+        margin: auto;
+    }
+    article{
+        margin: 15px;
+        width: 280px;
+    }
+    h2{
+        margin-bottom: 18px;
+    }
+    img{
+        margin-top: 35px;
+    }
+    div{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        line-height: 1.6rem;
+    }
+}
+
 /* FOOTER */
 footer{
     margin-bottom: 5px;
@@ -95,3 +130,4 @@ footer{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
