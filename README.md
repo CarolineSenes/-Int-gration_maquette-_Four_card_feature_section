@@ -49,7 +49,7 @@ Users should:
 
 ### What I learned
 
-Mastering margin collapsing
+Mastering margin collapsing between "Team Builder" and "Karma" articles
 Solution : I used flexbox to fix it (style.css l.114,115)
 
 
@@ -60,7 +60,7 @@ For small projects that don't require SASS, I will continue using CSS custom var
 
 ### Useful resource
 
-- [Le designer du web](https://youtu.be/kKmarw-fHfg) - This helped me for Mastering margin collapsing. I really liked this Youtube Channel.
+- [Le designer du web](https://youtu.be/kKmarw-fHfg) - This Youtube video helped me for Mastering margin collapsing. I really liked this Youtube Channel.
 
 
 ## Author
