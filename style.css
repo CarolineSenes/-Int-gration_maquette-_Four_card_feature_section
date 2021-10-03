@@ -25,7 +25,7 @@ body {
     color: var(--secondary-font-color); 
 }
 h1 {
-    font-size: 2.4rem; 
+    font-size: 1.7rem; 
     font-weight: 200;
     color: var(--main-font-color-dark); 
     text-align: center;
@@ -102,6 +102,9 @@ img{
     article{
         margin: 15px;
         width: 280px;
+    }
+    h1{
+        font-size: 2.4rem; 
     }
     h2{
         margin-bottom: 18px;
